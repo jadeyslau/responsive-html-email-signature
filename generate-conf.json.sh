@@ -15,6 +15,7 @@ echo    "\"id"\": "\"$theme"\",                                                 
 echo    "\"signature"\": "\"Best wishes,"\",                                        >> $conf_file_path
 echo    "\"name"\": "\"$name"\",                                                    >> $conf_file_path
 echo    "\"job-title"\": "\"$jobtitle"\",                                           >> $conf_file_path
+echo    "\"profileImg"\": "\"/assets/icon_jl.png"\",                                >> $conf_file_path
 echo    "\"email"\": "\"$email_address"\",                                          >> $conf_file_path
 echo    "\"emailIcon"\": "\"/assets/email-icon-2x.png"\",                           >> $conf_file_path
 echo    "\"logoImg"\": "\"/assets/logo_colour_full_lightbg_lilac.max-800x600.png"\",>> $conf_file_path
