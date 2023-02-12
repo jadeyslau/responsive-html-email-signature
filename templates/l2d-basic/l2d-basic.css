@@ -144,7 +144,7 @@ a {
 }
 
 .footer__main__col2 {
-  width: 70%;
+  width: 65%;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: right;
 }
@@ -200,9 +200,12 @@ a {
   display: block;
   background-color: rgb(236, 97, 159);
 }
-
+.profile-img-wrapper {
+  width: 85px
+}
 .profile-img {
-  max-width: 130px;
+  /* max-width: 130px; */
+  /* max-width: 12% */
 }
 
 .main-td{
