@@ -24,7 +24,7 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           MOBILE_PHONE_COUNTRY_CODE: ${{ secrets.MOBILE_PHONE_COUNTRY_CODE }}
           MOBILE_PHONE_NUMBER: ${{ secrets.MOBILE_PHONE_NUMBER }}
-          THEME: dark
+          THEME: l2d-basic
         run: |
           npm run generate:conf ${{ env.THEME }}
       - name: Install NPM and Generate Signature
