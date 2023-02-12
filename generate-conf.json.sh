@@ -4,10 +4,10 @@
 
 # If variable not set or null, set to some exemplary defaults.
 theme="${1:-light}"
-firstname="${3:-Jade}"
-lastname="${4:-Lau}"
-job_title="${5:-Social Media Manager}"
-email_address="${7:-jade@learntodiscover.ai}"
+fname="${5:-Jade}"
+lname="${6:-Lau}"
+job_title="${7:-Social Media Manager}"
+email_address="${9:-jade@learntodiscover.ai}"
 
 echo $theme
 
@@ -16,8 +16,8 @@ touch $conf_file_path
 echo {                                                                              >> $conf_file_path
 echo    "\"id"\": "\"$theme"\",                                                     >> $conf_file_path
 echo    "\"signature"\": "\"Best wishes,"\",                                        >> $conf_file_path
-echo    "\"firstname"\": "\"$firstname"\",                                          >> $conf_file_path
-echo    "\"lastname"\": "\"$lastname"\",                                            >> $conf_file_path
+echo    "\"fname"\": "\"$fname"\",                                                  >> $conf_file_path
+echo    "\"lname"\": "\"$lname"\",                                                  >> $conf_file_path
 echo    "\"job_title"\": "\"$job_title"\",                                          >> $conf_file_path
 echo    "\"profileImg"\": "\"/assets/icon_jl.png"\",                                >> $conf_file_path
 echo    "\"email"\": "\"$email_address"\",                                          >> $conf_file_path
