@@ -11,3 +11,22 @@
   "logoAlt": "light logo",
   "website": "http://light.dk"
 }
+{
+"id": "light",
+"signature": "Best wishes,",
+"fname": "Jade",
+"lname": "Lau",
+"job_title": "Social Media Manager",
+"profileImg": "/assets/icon_jl.png",
+"email": "jade@learntodiscover.ai",
+"emailIcon": "/assets/email-icon-2x.png",
+"logoImg": "/assets/logo_colour_full_lightbg_lilac.max-800x600.png",
+"logoAlt": "L2D Logo",
+"website": "https://learntodiscover.ai",
+"websiteIcon": "/assets/link-icon-2x.png",
+"bgImage": "/assets/SignatureShort.max-800x600.png",
+"linkedInUrl": "https://www.linkedin.com/company/learntodiscover/",
+"linkedInIcon": "/assets/LinkedIn_icon_circle.png",
+"twitterUrl": "https://twitter.com/L2D_Team/",
+"twitterIcon": "/assets/twitter-icon-2x.png"
+}
