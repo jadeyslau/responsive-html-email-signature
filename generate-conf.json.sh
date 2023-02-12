@@ -19,7 +19,7 @@ echo    "\"signature"\": "\"Best wishes,"\",                                    
 echo    "\"fname"\": "\"$fname"\",                                                  >> $conf_file_path
 echo    "\"lname"\": "\"$lname"\",                                                  >> $conf_file_path
 echo    "\"job_title"\": "\"$job_title"\",                                          >> $conf_file_path
-echo    "\"profileImg"\": "\"/assets/icon_jl.png"\",                                >> $conf_file_path
+echo    "\"profileImg"\": "\"/assets/$fname.jpg"\",                                >> $conf_file_path
 echo    "\"email"\": "\"$email_address"\",                                          >> $conf_file_path
 echo    "\"emailIcon"\": "\"/assets/email-icon-2x.png"\",                           >> $conf_file_path
 echo    "\"logoImg"\": "\"/assets/logo_colour_full_lightbg_lilac.max-800x600.png"\",>> $conf_file_path
