@@ -3,7 +3,7 @@
 # script for dynamic interactive creation of conf.json file
 
 # If variable not set or null, set to some exemplary defaults.
-theme="${1:-light}"
+theme="${1:-l2d-basic}"
 fname="${5:-Jade}"
 lname="${6:-Lau}"
 job_title="${7:-Social Media Manager}"
