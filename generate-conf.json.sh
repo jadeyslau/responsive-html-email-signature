@@ -13,7 +13,7 @@ echo $theme
 
 conf_file_path="./templates/$theme/conf.json"
 touch $conf_file_path
-echo {                                                                              > $conf_file_path
+echo {                                                                              >> $conf_file_path
 echo    "\"id"\": "\"$theme"\",                                                     >> $conf_file_path
 echo    "\"signature"\": "\"Best wishes,"\",                                        >> $conf_file_path
 echo    "\"fname"\": "\"$fname"\",                                                  >> $conf_file_path
