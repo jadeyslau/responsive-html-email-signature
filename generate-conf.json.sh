@@ -19,11 +19,11 @@ echo    "\"email"\": "\"$email_address"\",                                      
 echo    "\"emailIcon"\": "\"/assets/email-icon-2x.png"\",                           >> $conf_file_path
 echo    "\"logoImg"\": "\"/assets/logo_colour_full_lightbg_lilac.max-800x600.png"\",>> $conf_file_path
 echo    "\"logoAlt"\": "\"L2D Logo"\",                                              >> $conf_file_path
-echo    "\"website"\": "\"https://learntodiscover.ai"\"                             >> $conf_file_path
-echo    "\"websiteIcon"\": "\"/assets/link-icon-2x.png"\"                           >> $conf_file_path
-echo    "\"bgImage"\": "\"/assets/SignatureShort.max-800x600.png"\"                 >> $conf_file_path
-echo    "\"linkedInUrl"\": "\"https://www.linkedin.com/company/learntodiscover/"\"  >> $conf_file_path
-echo    "\"linkedInIcon"\": "\"/assets/LinkedIn_icon_circle.png"\"                  >> $conf_file_path
-echo    "\"twitterUrl"\": "\"https://twitter.com/L2D_Team/"\"                       >> $conf_file_path
-echo    "\"twitterIcon"\": "\"/assets/twitter-icon-2x.png"\"                        >> $conf_file_path
+echo    "\"website"\": "\"https://learntodiscover.ai"\",                            >> $conf_file_path
+echo    "\"websiteIcon"\": "\"/assets/link-icon-2x.png"\",                          >> $conf_file_path
+echo    "\"bgImage"\": "\"/assets/SignatureShort.max-800x600.png"\",                >> $conf_file_path
+echo    "\"linkedInUrl"\": "\"https://www.linkedin.com/company/learntodiscover/"\", >> $conf_file_path
+echo    "\"linkedInIcon"\": "\"/assets/LinkedIn_icon_circle.png"\",                 >> $conf_file_path
+echo    "\"twitterUrl"\": "\"https://twitter.com/L2D_Team/"\",                      >> $conf_file_path
+echo    "\"twitterIcon"\": "\"/assets/twitter-icon-2x.png"\",                       >> $conf_file_path
 echo }                                                                              >> $conf_file_path
