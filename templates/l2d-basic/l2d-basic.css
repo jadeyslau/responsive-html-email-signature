@@ -188,17 +188,18 @@ a {
 
 .iconwrapper {
   display: inline-block;
-  background-color: rgb(236, 97, 159);
+  /* background-color: rgb(236, 97, 159); */
 }
 
 .icon-cell {
   vertical-align: middle;
-
 }
 
 .icon {
   display: block;
   background-color: rgb(236, 97, 159);
+  margin-right: 5px;
+  max-width:13px;
 }
 .profile-img-wrapper {
   width: 85px
@@ -210,4 +211,5 @@ a {
 
 .main-td{
   display: inline-block;
+  margin-top: 15px;
 }
