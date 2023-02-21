@@ -145,7 +145,7 @@ a {
 
 .footer__main__col2 {
   /* width: 65%; */
-  max-width: 140px;
+  max-width: 120px;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: right;
 }
