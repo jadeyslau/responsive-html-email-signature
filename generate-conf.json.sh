@@ -33,7 +33,6 @@ touch $conf_file_path
 # echo    "\"twitterIcon"\": "\"/assets/twitter-icon-2x.png"\"                        >> $conf_file_path
 # echo }                                                                              >> $conf_file_path
 
-touch $conf_file_path
 echo {                                                                              >> $conf_file_path
 echo    "\"id"\": "\"$theme"\",                                                     >> $conf_file_path
 echo    "\"signature"\": "\"Best wishes,"\",                                        >> $conf_file_path
