@@ -198,9 +198,9 @@ a {
 
 .icon {
   display: block;
-  background-color: rgb(236, 97, 159);
+  /* background-color: rgb(236, 97, 159); */
   margin-right: 5px;
-  max-width:13px;
+  max-width: 13px;
 }
 .profile-img-wrapper {
   width: 85px
@@ -208,6 +208,7 @@ a {
 .profile-img {
   /* max-width: 130px; */
   /* max-width: 12% */
+  max-width: 85px;
 }
 
 .main-td{
