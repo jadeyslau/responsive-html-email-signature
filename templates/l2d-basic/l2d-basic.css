@@ -117,21 +117,21 @@ a {
 }
 
 .footer__main__signature {
-  font-size: 14px;
+  font-size: 12px;
   color: #888;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
 }
 
 .footer__main__col1 {
-  width: 40%;
+  width: 50%;
   margin-bottom: 30px;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
 }
 
 .footer__main__col1__td {
-  font-size: 14px;
+  font-size: 12px;
   color: #888;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
