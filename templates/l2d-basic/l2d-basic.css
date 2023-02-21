@@ -124,7 +124,7 @@ a {
 }
 
 .footer__main__col1 {
-  width: 30%;
+  width: 40%;
   margin-bottom: 30px;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
