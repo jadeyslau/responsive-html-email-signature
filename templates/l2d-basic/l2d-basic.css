@@ -37,7 +37,8 @@ tr {
 .main {
   width: 100%;
   background-color: #ffffff;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+  padding: 15px;
 }
 
 .sp {
@@ -57,7 +58,16 @@ tr {
 }
 
 .pink-hr hr {
-  border-bottom: 1px solid rgb(236, 97, 159);;
+  border-bottom: 1px solid rgb(236, 97, 159);
+  border-top: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: transparent;
+  background: transparent;
+}
+
+hr.pink-hr.thick {
+  border-bottom: 8px solid rgb(236, 97, 159);
   border-top: none;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -99,7 +109,7 @@ a {
   background-color: #FFF;
   padding: 20px 30px 0px 30px;
   color: #888;
-  border-top: 8px solid rgb(236, 97, 159);
+  /* border-top: 8px solid rgb(236, 97, 159); */
 }
 
 .footer a {
